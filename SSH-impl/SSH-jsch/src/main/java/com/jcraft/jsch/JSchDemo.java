@@ -21,6 +21,7 @@ public class JSchDemo {
             Session session = jsch.getSession(user, host, 22);
             session.setPassword(password);
             session.setConfig(config);
+            session.setTimeout(10000);
             session.connect();
             System.out.println("Connected");
 

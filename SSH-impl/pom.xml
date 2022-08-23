@@ -10,5 +10,7 @@
   <description>SSH implements with JAVA.</description>
   <modules>
       <module>SSH-jsch</module>
+      <module>SSH-jcabi-ssh</module>
+      <module>SSH-ganymed-ssh2</module>
   </modules>
 </project>
